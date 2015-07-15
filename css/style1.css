@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/11/2014, 02:23:04 PM
+    Author     : usuario
+*/
+
+#wrap{
+    padding-bottom: 5%;
+    width: auto;
+    margin: auto;
+    height: 600px;
+    min-height:100%;
+}
+
+#wrap:after{
+    width: 100%;
+    height:25%;
+    display:content;
+    clear:both;
+}
+
+#footer{
+    text-align: center;
+    width: auto;
+    height: 5%;
+    background-color: #000
+}
+
+#footer>footer>p{
+    font-size: 10px;
+    text-align: center;
+    padding: 0px;
+    color: #555
+}
+
+div .content{
+    padding: 20%;
+}
+.carousel-control{
+    opacity:0;
+}
+.carousel-inner {
+    background-color: rgba(63, 63, 63,0.0);
+    margin-top: 2%;
+    text-align: center;
+}
+.carousel .item > img {
+    display: inline-block;
+    text-align: center;
+}
+
+.carousel-indicators li{
+    border-radius:3px;
+}
+
+div {
+    text-align: center;
+}
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover,h7:hover{
+    text-decoration: none;
+}
+p{	
+    font-size: 12px;
+    color:#ffffff;
+    text-align: justify;
+}
+br{
+    color:#ffffff;
+}
+body {
+    background: #FFF;
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+select>option{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.form-control{
+    padding: 0;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.thumbnile, .caption>p{
+    text-align: center;
+    background-color: rgba(63, 63, 63,0.0); 
+}
+
+.bs-example-navbar-collapse{
+    color:white;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color:white
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color:#337ab7;
+    background-color: white
+}
+.navbar-inverse {
+    background-color: #337ab7;
+    border-color: #337ab7;
+    border-radius: 0px;
+    border-color: #337ab7;
+}
+.navbar-brand{
+    
+}
+.radio{
+    text-align: left;
+    padding-left: 15%;
+}
+
+.thead{
+    color:#fff;
+    background-color: #000
+}
+
+.btn-danger {
+color: #337ab7;
+background-color: #000;
+border-color: #000;
+}
